@@ -1,0 +1,51 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.py[cod]
+
+# Environment
+.env
+.venv/
+venv/
+env/
+env.bak/
+
+# SQLite database
+db.sqlite3
+
+# Excel files
+*.xlsx
+
+# Static files
+/static/
+
+# Media files
+/media/
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Log files
+*.log
+
+# Coverage reports
+.coverage
+coverage.xml
+htmlcov/
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Other files
+*.DS_Store
+*.bak
+*.swp
